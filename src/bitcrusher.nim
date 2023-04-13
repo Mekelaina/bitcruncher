@@ -1,5 +1,7 @@
 import os, strutils
 
+import emulator/vm
+
 const FLAGS = ["-a", "-A", "-o", "-O", "-r", "-R", "-d", "-D", "-h", "-H"]
 
 type 
@@ -22,7 +24,12 @@ proc executeFile(infile: string) =
     echo "TODO: executeFile"
 
 proc runDebug(infile: string, readfile: bool) =
+    #var vm: VM
+    #vm.init()
+
+    #let x = vm.add(1, 2)
     echo "TODO: runDebug"
+
 
 proc processFlags(args: openArray[string]) =
     var
