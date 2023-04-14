@@ -5,7 +5,7 @@ author        = "Chloe Hausser"
 description   = "A new awesome nimble package"
 license       = "MIT"
 srcDir        = "src"
-bin           = @["bitcrusher"]
+bin           = @["bitcruncher"]
 
 
 # Dependencies

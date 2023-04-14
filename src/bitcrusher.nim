@@ -24,8 +24,8 @@ proc executeFile(infile: string) =
     echo "TODO: executeFile"
 
 proc runDebug(infile: string, readfile: bool) =
-    #var vm: VM
-    #vm.init()
+    var vm: VM
+    vm.init()
 
     #let x = vm.add(1, 2)
     echo "TODO: runDebug"
