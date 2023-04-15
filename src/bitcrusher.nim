@@ -26,9 +26,9 @@ proc executeFile(infile: string) =
 proc runDebug(infile: string, readfile: bool) =
     var vm: VM
     vm.init()
+# stack is messed up 
+    echo vm.add(1,2)
 
-    #let x = vm.add(1, 2)
-    echo "TODO: runDebug"
 
 
 proc processFlags(args: openArray[string]) =
